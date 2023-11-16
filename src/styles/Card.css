@@ -1,0 +1,96 @@
+.cardProdutos {
+    justify-content: center;
+}
+
+.card {
+    width: 80%;
+    height: 70%;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.card-item {
+    width: 40%;
+    height: 90%;
+    /* border: solid red; */
+    position: relative;
+    justify-content: center;
+}
+
+.texto {
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.texto h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.texto p {
+    width: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 3rem;
+}
+
+.imagem img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    background-color: #dadada50;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.imagem img:hover {
+    width: 95%;
+    height: 85%;
+    transition: .4s;
+}
+
+.btnOpc {
+    width: 120px;
+    height: 500px;
+    position: absolute;
+    right: 100%;
+    justify-content: space-evenly;
+}
+
+.btnTenis {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid var(--cinza);
+    position: relative;
+    justify-content: center;
+}
+
+.btnTenis button {
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    border-radius: 50%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 200;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btnTenis button:hover {
+    transition: .4s;
+    background-color: #dadada50;
+}
+
+.btnTenis img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    background-color: #dadada50;
+}

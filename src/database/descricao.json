@@ -1,0 +1,27 @@
+{
+    "tenis1": {
+        "nome": "Tenis 1",
+        "descricao": "Tenis ideal para caminhadas pois possui um relevo único na parte inferior. O Tênis é branco e azul.",
+        "preco": "150,90"
+    },
+    "tenis2": {
+        "nome": "Tenis 2",
+        "descricao": "Tenis ideal para uso na academia. A parte inferior é lisa. Tenis azul com detalhes preto, branco e cinza.",
+        "preco": "200,89"
+    },
+    "tenis3": {
+        "nome": "Tenis 3",
+        "descricao": "Tenis ideal para corridas. Possui amortecimento e salto auto no calcanhar. O Tênis é vermelho com detalhes branco e preto.",
+        "preco": "290,50"
+    },
+    "tenis4": {
+        "nome": "Tenis 4",
+        "descricao": "Tenis com sistema de amortecimento e salto auto. Ideal para prática de esportes. Tenis preto com detalhes cinza.",
+        "preco": "400.99"
+    },
+    "tenis5": {
+        "nome": "Tenis 5",
+        "descricao": "Tenis moderno com coloração neon. Linha exclusiva. Tenis verde e amarelo neos com detalhes preto e branco.",
+        "preco": "320.29"
+    }
+}

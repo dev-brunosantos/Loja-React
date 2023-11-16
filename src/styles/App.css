@@ -1,0 +1,95 @@
+.App {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+/* PAGINA HOME */
+.home {
+    background: url('../../public/Home2.png') no-repeat center;
+    background-size: 100%;
+    justify-content: center;
+}
+/* TELAS DE PRODUTOS */
+.produtos {
+    justify-content: center;
+    font-size: 100px;
+    position: relative;
+}
+
+.comprar {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--branco);
+    position: absolute;
+    top: 100%;
+}   
+/* CARRINHO */
+.carrinho {
+    justify-content: center;
+}
+
+.dados {
+    width: 80%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 20px;
+    background-color: var(--branco);
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.dados div {
+    height: 100%;
+    justify-content: center;
+}
+
+.dados div img {
+    width: 300px;
+    height: 110%;
+}
+
+.dados div h1 {
+    font-size: 30px;
+}
+.dados div p {
+    width: 90%;
+    text-align: center;
+} 
+
+.dados div:nth-child(2) {
+    width: 200px;
+}
+
+.dados div:nth-child(3) {
+    width: 250px;
+}
+
+.botoes {
+    width: 130px;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+.botoes button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.botoes input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.lixeira {
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}

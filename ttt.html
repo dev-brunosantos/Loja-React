@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./public/tenis-1.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+
+            <h1 id="teste">
+                asd
+            </h1>
+        </nav>
+    </header>
+
+    <script>
+        const pessoas = {
+            bruno: {
+                "nome": "Bruno Santos",
+                "idade": 24,
+            },
+            monica: {
+                "nome": "Monica Santos",
+                "idade": 26
+            },
+        }   
+
+        localStorage.setItem('pessoas', JSON.stringify(pessoas))
+
+        const teste = document.getElementById('teste')
+
+        console.log(JSON.parse(localStorage.pessoas))
+
+        teste.textContent = JSON.stringify(pessoas.nome)
+    </script>
+</body>
+
+</html>
